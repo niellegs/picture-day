@@ -57,7 +57,7 @@ function loadHome() {
     container.innerHTML += `
     <div id="home">
         <h1>Explore o universo.</h1>
-        <img src="./public/images/navezinha.png" alt="">
+        <img src="./public/images/navezinha.png" alt="logo-do-site">
     </div>
     `;
     document.querySelector("#home").style.backgroundColor = "rgba(227, 227, 227, .6)";
