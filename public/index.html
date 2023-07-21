@@ -13,17 +13,20 @@
     <nav>
         <header>
             <input type="date" name="" id="date">
-            <button onclick="getDate()" id="getDate"><img src="/public/images/lupa.png" alt=""></button>
+            <button onclick="getDate()" id="getDate"><img src="/public/images/lupa.svg" alt=""></button>
         </header>
         <ul>
-            <li onclick="closeDescription()"><img src="/public/images/imagem.png">Imagem</li>
-            <li onclick="showDescription()"><img src="/public/images/descricao.png">Descrição</li>
-            <li><img src="/public/images/casa.png">Home</li>
+            <li onclick="closeDescription()"><img src="/public/images/imagem.svg">Imagem</li>
+            <li onclick="showDescription()"><img src="/public/images/descricao.svg">Descrição</li>
+            <li onclick="loadHome()"><img src="/public/images/home.svg">Home</li>
         </ul>
     </nav>
     <main>
         <div id="container-APOD">
-            
+            <div id="home">
+                <h1>Explore o universo.</h1>
+                <img src="./images/navezinha.png" alt="">
+            </div>
         </div>
     </main>
 </body>

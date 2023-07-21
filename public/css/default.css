@@ -70,6 +70,8 @@ nav ul li {
     padding:  1rem 1rem;
 }
 
+
+
 nav ul li:hover {
     color: white;
     font-style: italic;
@@ -130,4 +132,27 @@ font-family: var(--paragraph);
     padding: 1rem;
     width: 35vw;
     display: none;
+}
+
+/* HOME */
+
+#home {
+    display: block;
+    border: black 1px solid;
+    margin: 30px;
+    padding: 2rem;
+    height: 80vh;
+}
+
+#home h1 {
+    font-family: var(--title);
+    font-size: 2.5rem;
+    margin-left: 35%;
+    margin-bottom: 1rem;
+}
+
+#home img {
+    width: 25vw;
+    height: auto;
+    margin-left: 30%;
 }
