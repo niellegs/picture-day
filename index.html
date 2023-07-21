@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,12 +15,14 @@
             <label for="data">
                 <input type="date" name="" id="date">
             </label>
-            <button onclick="getDate()" id="getDate"><img src="./public/images/lupa.svg" alt="pesquisar"></button>
+            <label for="pesquisar">
+                <button onclick="getDate()" id="getDate"><img src="./public/images/lupa.svg" alt="pesquisar"></button>
+            </label>
         </header>
         <ul>
             <li onclick="closeDescription()"><img src="./public/images/imagem.svg" alt="acessar-imagem">Imagem</li>
             <li onclick="showDescription()"><img src="./public/images/descricao.svg" alt="ver-descrição">Descrição</li>
-            <li onclick="loadHome()"><img src="./public/images/home.svg" alt="home">Home</li>
+            <li onclick="loadHome()"><img src="./public/images/home.svg" alt="pagina-inicial">Home</li>
         </ul>
     </nav>
     <main>
