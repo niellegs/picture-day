@@ -72,6 +72,7 @@ nav ul li {
 
 nav ul li:hover {
     color: white;
+    font-style: italic;
     cursor: pointer;
     background-color: var(--blue);
 }
@@ -103,11 +104,30 @@ img {
 /* MAIN CONTENT */
 
 main {
-    background-color: var(--grey);
+    background: var(--grey);
     margin:0px;
     width: 80vw;
     height: 88vh;
     margin: 2rem 1rem;
-    padding: 1rem;
 }
 
+#description {
+    background: linear-gradient(to right, var(--grey),transparent);
+    width: 80vw;
+    height: 88vh;
+    display: none;
+}
+
+#description h1 {
+    font-family: var(--title);
+}
+
+#description p {
+font-family: var(--paragraph);
+}
+
+#description div {
+    padding: 1rem;
+    width: 35vw;
+    display: none;
+}
