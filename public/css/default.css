@@ -70,8 +70,6 @@ nav ul li {
     padding:  1rem 1rem;
 }
 
-
-
 nav ul li:hover {
     color: white;
     font-style: italic;
@@ -155,4 +153,56 @@ font-family: var(--paragraph);
     width: 25vw;
     height: auto;
     margin-left: 30%;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 480px ) {
+    body {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+    }
+    nav {
+        width: 100vw;
+        height: 10vh;
+        margin: 0;
+    }
+
+    nav header {
+        margin-top: 1rem;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        background-color: var(--grey);
+
+    }
+    
+    nav ul li {
+        margin: 0 0;
+        padding:  1rem 1rem;
+    }
+
+    nav ul li:last-child {
+        flex-direction:unset;
+        margin-top: 0;
+    }
+
+    main {
+        width: 100vw;
+        height: 100vh;
+        margin: 5.5rem 0rem;
+    }
+    
+}
+
+#description div {
+    background: var(--grey);
+    padding: 1rem;
+    width: 100vw;
+    height: auto;
+    display: none;
 }
