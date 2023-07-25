@@ -1,4 +1,5 @@
 const container = document.getElementById("container-APOD");
+const  description = document.getElementById("description");
 const getDateButton = document.getElementById("getDate");
 var dateInput = document.getElementById("date");
 var date = "";
